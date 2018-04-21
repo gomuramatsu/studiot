@@ -1,9 +1,22 @@
 .navbar-nav > li{
   padding-right: 20px;
+  line-height: 10%;
+  height: 70px;
+  padding-top: 3%;
+}
+
+.navbar {
+  min-height: 70px;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px;
 }
 
 .mainComponent {
-	padding-top: 50px;
+	padding-top: 100px;
 	padding-left: 10%;
 	padding-right: 10%;
 }
@@ -15,4 +28,8 @@
 .table-borderless > tfoot > tr > th,
 .table-borderless > thead > tr > td{
     border: none;
+}
+
+.leftTD {
+	width: 26%;
 }
