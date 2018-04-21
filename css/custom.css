@@ -1,3 +1,16 @@
 .btn {
 	border-radius: 0px;
 }
+
+.mainComponent {
+	padding-top: 50px;
+}
+
+/* https://stackoverflow.com/questions/18075794/bootstrap-table-without-stripe-borders */
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td{
+    border: none;
+}
