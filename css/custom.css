@@ -1,4 +1,4 @@
-.navbar-nav > li{
+.navbar-nav > li {
   padding-right: 20px;
   line-height: 10%;
   height: 70px;
@@ -17,8 +17,8 @@
 
 .mainComponent {
 	padding-top: 100px;
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: 15%;
+	padding-right: 15%;
 }
 
 /* https://stackoverflow.com/questions/18075794/bootstrap-table-without-stripe-borders */
@@ -26,10 +26,31 @@
 .table-borderless > tbody > tr > th,
 .table-borderless > tfoot > tr > td,
 .table-borderless > tfoot > tr > th,
-.table-borderless > thead > tr > td{
+.table-borderless > thead > tr > td {
     border: none;
 }
 
+.leftSylist {
+	width: 125px;
+    float: left;
+}
+.rightStylist {
+	margin-left: 125px;
+}
+
+
 .leftTD {
 	width: 26%;
+}
+
+/*.homeBody {
+	background-image: url('http://www.birds.com/wp-content/uploads/home/bird4.jpg');
+	background-image: url("./images/home.gif");
+	background-size: cover;
+}*/
+
+.homeBody {
+	background-image: url("../images/home.gif");
+	background-size: cover;
+	background-attachment: fixed;
 }
