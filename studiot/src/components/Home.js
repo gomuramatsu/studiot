@@ -6,7 +6,7 @@ class NavBar extends Component {
   render() {
     return (
       <div>
-        <p>hello this is home</p>
+        <p>hello this is home. hello this is home. hello this is home. hello this is home. </p>
       </div>
     );
   }

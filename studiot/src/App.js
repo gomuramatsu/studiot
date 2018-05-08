@@ -4,6 +4,8 @@ import Header from './components/Header.js';
 import NavBar from './components/NavBar.js';
 import Home from './components/Home.js';
 import Menu from './components/Menu.js';
+import Gallery from './components/Gallery.js';
+import Contact from './components/Contact.js';
 import './App.css';
 
 
@@ -35,6 +37,8 @@ class App extends Component {
           <div className="ContentWrap">
             { this.state.currentPage === "home" ? <Home /> : null }
             { this.state.currentPage === "menu" ? <Menu /> : null }
+            { this.state.currentPage === "gallery" ? <Gallery /> : null }
+            { this.state.currentPage === "contact" ? <Contact /> : null }
           </div>
         </div>
       </div>
