@@ -11,15 +11,40 @@
 }
 
 .ContentWrap {
-  margin-top: 50px;
+  margin-top: 80px;
   padding-top: 3%;
   padding-left: 17%;
   padding-right: 17%;
 }
 
+.spacedSection{
+    padding: 0px 0px 15px 0px;
+}
+
+p {
+   margin: 2px 0;
+   line-height: 14px;
+}
+
 .borderless td, .borderless th {
     border: none;
 }
+
+/* Nav bar style*/
+
+.navbar.navbar-default {
+  border-bottom: none;
+  min-height: 80px;
+}
+
+.navbar-nav > li > a, .navbar-brand {
+    min-height: 80px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding-top: 30px;
+}
+
 
 @media (max-width: 300px) {
     .navbar-header {

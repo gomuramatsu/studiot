@@ -8,73 +8,73 @@ class Menu extends Component {
 
     return (
       <div>
-        <p>*taxes are included</p>
+        <p><big>*taxes are included</big></p>
 
-        <h5>Haircuts</h5>
+        <h3>Haircuts</h3>
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td class="col-md-6">Women's Haircut</td>
-              <td>60~70</td>
+              <td className="col-md-6">Women's Haircut</td>
+              <td>$60~$70</td>
             </tr>
             <tr>
               <td>Men's Haircut</td>
-              <td>50~60</td>
+              <td>$50~$60</td>
             </tr>
             <tr>
               <td>Children's Haircut (12 & under)</td>
-              <td>30</td>
+              <td>$30</td>
             </tr>
           </tbody>
         </Table>
 
-        <h5>Color</h5>
+        <h3>Color</h3>
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td class="col-md-6">Basic Tint</td>
-              <td>70~100</td>
+              <td className="col-md-6">Basic Tint</td>
+              <td>$70~$100</td>
             </tr>
             <tr>
               <td>Hi-lights</td>
-              <td>80~200</td>
+              <td>$80~$200</td>
             </tr>
             <tr>
               <td>Color Correction</td>
-              <td>160~</td>
+              <td>$160~</td>
             </tr>
           </tbody>
         </Table>
 
-        <h5>Perm</h5>
+        <h3>Perm</h3>
         <p>*Haircut included with all perms</p>
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td class="col-md-6">Perm</td>
-              <td>100~180</td>
+              <td className="col-md-6">Perm</td>
+              <td>$100 ~ $180</td>
             </tr>
             <tr>
               <td>Airwave Perm</td>
-              <td>170~280</td>
+              <td>$170~$280</td>
             </tr>
             <tr>
               <td>Relaxer</td>
-              <td>250~350</td>
+              <td>$250~$350</td>
             </tr>
           </tbody>
         </Table>
 
-        <h5>Treatment</h5>
+        <h3>Treatment</h3>
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td class="col-md-6">Hair Treatment</td>
-              <td>70~90</td>
+              <td className="col-md-6">Hair Treatment</td>
+              <td>$70~$90</td>
             </tr>
             <tr>
               <td>Scalp Treatment</td>
-              <td>40~60</td>
+              <td>$40~$60</td>
             </tr>
           </tbody>
         </Table>
@@ -82,16 +82,16 @@ class Menu extends Component {
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td class="col-md-6">Shampoo</td>
-              <td>20~30</td>
+              <td className="col-md-6">Shampoo</td>
+              <td>$20~$30</td>
             </tr>
             <tr>
               <td>Blow dry/Flat iron/Curling iron</td>
-              <td>40~50</td>
+              <td>$40~$50</td>
             </tr>
             <tr>
-              <td class="col-md-6">Japanese Hair Straightening TR(Thermal Reconditioning), Rebonding </td>
-              <td>450~580</td>
+              <td className="col-md-6">Japanese Hair Straightening TR(Thermal Reconditioning), Rebonding </td>
+              <td>$450~$580</td>
             </tr>
           </tbody>
         </Table>

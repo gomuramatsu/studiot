@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../App.css';
+import logo from '../images/logo/StudioT-logo-RGB.eps';
 
 class NavBar extends Component {
   
   render() {
     return (
       <div>
-        <Navbar inverse fixedTop collapseOnSelect>
+        <Navbar fixedTop collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand >
-              <a onClick = {() => this.props.pageHandler("home")}>Studio T</a>
+              <img src="/images/logo/studiot_logo.png" onClick = {() => this.props.pageHandler("home")} / >
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
