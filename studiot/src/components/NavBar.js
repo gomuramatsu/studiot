@@ -20,11 +20,11 @@ class NavBar extends Component {
               <NavItem onClick = {() => this.props.pageHandler("menu")}>
                 Menu
               </NavItem>
+              <NavItem onClick = {() => this.props.pageHandler("thermal")}>
+                TR/Hair Straightening
+              </NavItem>
               <NavItem onClick = {() => this.props.pageHandler("gallery")}>
                 Gallery
-              </NavItem>
-              <NavItem onClick = {() => this.props.pageHandler("products")}>
-                Products
               </NavItem>
               <NavItem onClick = {() => this.props.pageHandler("contact")}>
                 Contact

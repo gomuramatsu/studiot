@@ -77,43 +77,43 @@ const IMAGES =
             thumbnailHeight: 400
     },
     {
-            src: "/images/IMG_0818.jpg",
+            src: "/images/airwave/IMG_0818.jpg",
             thumbnail: "/images/IMG_0818_thumb.png",
             thumbnailWidth: 400,
             thumbnailHeight: 400
     },
     {
-            src: "/images/IMG_1084.jpg",
+            src: "/images/airwave/IMG_1084.jpg",
             thumbnail: "/images/IMG_1084_thumb.png",
             thumbnailWidth: 400,
             thumbnailHeight: 400
     },
     {
-            src: "/images/IMG_1104.jpg",
+            src: "/images/airwave/IMG_1104.jpg",
             thumbnail: "/images/IMG_1104_thumb.png",
             thumbnailWidth: 400,
             thumbnailHeight: 400
     },
     {
-            src: "/images/IMGP0075.jpg",
+            src: "/images/airwave/IMGP0075.jpg",
             thumbnail: "/images/IMGP0075_thumb.png",
             thumbnailWidth: 400,
             thumbnailHeight: 400
     },
     {
-            src: "/images/IMGP0232.jpg",
+            src: "/images/airwave/IMGP0232.jpg",
             thumbnail: "/images/IMGP0232_thumb.png",
             thumbnailWidth: 400,
             thumbnailHeight: 400
     },
     {
-            src: "/images/P1010284.jpg",
+            src: "/images/airwave/P1010284.jpg",
             thumbnail: "/images/P1010284_thumb.png",
             thumbnailWidth: 400,
             thumbnailHeight: 400
     },
     {
-            src: "/images/que.jpg",
+            src: "/images/airwave/que.jpg",
             thumbnail: "/images/que_thumb.png",
             thumbnailWidth: 400,
             thumbnailHeight: 400

@@ -3,9 +3,10 @@ import Header from './components/Header.js';
 import NavBar from './components/NavBar.js';
 import Home from './components/Home.js';
 import Menu from './components/Menu.js';
+import ThermalReconditioning from './components/ThermalReconditioning.js';
 import GalleryPage from './components/Gallery.js';
-import ProductPage from './components/ProductPage.js';
 import Contact from './components/Contact.js';
+import Footer from './components/Footer.js';
 import './App.css';
 
 
@@ -33,14 +34,17 @@ class App extends Component {
       <div>
         <Header />
         <div className="App">
-          <NavBar pageHandler = {this.pageHandler}/>
-          <div className="ContentWrap">
-            { this.state.currentPage === "home" ? <Home /> : null }
-            { this.state.currentPage === "menu" ? <Menu /> : null }
-            { this.state.currentPage === "gallery" ? <GalleryPage /> : null }
-            { this.state.currentPage === "products" ? <ProductPage /> : null }
-            { this.state.currentPage === "contact" ? <Contact /> : null }
+          <div className="body-wrapper">
+            <NavBar pageHandler = {this.pageHandler}/>
+            <div className="ContentWrap">
+              { this.state.currentPage === "home" ? <Home /> : null }
+              { this.state.currentPage === "menu" ? <Menu /> : null }
+              { this.state.currentPage === "thermal" ? <ThermalReconditioning /> : null }
+              { this.state.currentPage === "gallery" ? <GalleryPage /> : null }
+              { this.state.currentPage === "contact" ? <Contact /> : null }
+            </div>
           </div>
+          <Footer />
         </div>
       </div>
     );
