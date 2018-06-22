@@ -14,16 +14,16 @@ class Menu extends Component {
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td className="col-md-6">Women's Haircut</td>
-              <td>$60~$70</td>
+              <td className="col-md-6"><p>Women's Haircut</p></td>
+              <td><p>$60~$70</p></td>
             </tr>
             <tr>
-              <td>Men's Haircut</td>
-              <td>$50~$60</td>
+              <td><p>Men's Haircut</p></td>
+              <td><p>$50~$60</p></td>
             </tr>
             <tr>
-              <td>Children's Haircut (12 & under)</td>
-              <td>$30</td>
+              <td><p>Children's Haircut (12 & under)</p></td>
+              <td><p>$30</p></td>
             </tr>
           </tbody>
         </Table>
@@ -32,16 +32,16 @@ class Menu extends Component {
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td className="col-md-6">Basic Tint</td>
-              <td>$70~$100</td>
+              <td className="col-md-6"><p>Basic Tint</p></td>
+              <td><p>$70~$100</p></td>
             </tr>
             <tr>
-              <td>Hi-lights</td>
-              <td>$80~$200</td>
+              <td><p>Hi-lights</p></td>
+              <td><p>$80~$200</p></td>
             </tr>
             <tr>
-              <td>Color Correction</td>
-              <td>$160~</td>
+              <td><p>Color Correction</p></td>
+              <td><p>$160~</p></td>
             </tr>
           </tbody>
         </Table>
@@ -51,16 +51,16 @@ class Menu extends Component {
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td className="col-md-6">Perm</td>
-              <td>$100 ~ $180</td>
+              <td className="col-md-6"><p>Perm</p></td>
+              <td><p>$100 ~ $180</p></td>
             </tr>
             <tr>
-              <td>Airwave Perm</td>
-              <td>$170~$280</td>
+              <td><p>Airwave Perm</p></td>
+              <td><p>$170~$280</p></td>
             </tr>
             <tr>
-              <td>Relaxer</td>
-              <td>$250~$350</td>
+              <td><p>Relaxer</p></td>
+              <td><p>$250~$350</p></td>
             </tr>
           </tbody>
         </Table>
@@ -69,12 +69,12 @@ class Menu extends Component {
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td className="col-md-6">Hair Treatment</td>
-              <td>$70~$90</td>
+              <td className="col-md-6"><p>Hair Treatment</p></td>
+              <td><p>$70~$90</p></td>
             </tr>
             <tr>
-              <td>Scalp Treatment</td>
-              <td>$40~$60</td>
+              <td><p>Scalp Treatment</p></td>
+              <td><p>$40~$60</p></td>
             </tr>
           </tbody>
         </Table>
@@ -82,16 +82,16 @@ class Menu extends Component {
         <Table className="table borderless" hover responsive>
           <tbody>
             <tr>
-              <td className="col-md-6">Shampoo</td>
-              <td>$20~$30</td>
+              <td className="col-md-6"><p>Shampoo</p></td>
+              <td><p>$20~$30</p></td>
             </tr>
             <tr>
-              <td>Blow dry/Flat iron/Curling iron</td>
-              <td>$40~$50</td>
+              <td><p>Blow dry/Flat iron/Curling iron</p></td>
+              <td><p>$40~$50</p></td>
             </tr>
             <tr>
-              <td className="col-md-6">Japanese Hair Straightening TR(Thermal Reconditioning), Rebonding </td>
-              <td>$450~$580</td>
+              <td className="col-md-6"><p>Japanese Hair Straightening TR(Thermal Reconditioning), Rebonding</p></td>
+              <td><p>$450~$580</p></td>
             </tr>
           </tbody>
         </Table>

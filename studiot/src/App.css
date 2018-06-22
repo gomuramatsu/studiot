@@ -31,8 +31,14 @@ html, body {
 }
 
 p {
-   margin: 2px 0;
-   line-height: 14px;
+   line-height: 1.5;
+   font-weight: 400;
+   font-size: 1.1em;
+   margin-bottom: 0px;
+}
+
+td > p {
+  margin-bottom: 0px !important;
 }
 
 .borderless td, .borderless th {
@@ -43,15 +49,18 @@ p {
 
 .navbar.navbar-default {
   border-bottom: none;
-  min-height: 80px;
+  min-height: 90px;
+  font-family: Helvetica Neue, Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .navbar-nav > li > a, .navbar-brand {
-    min-height: 80px;
+    min-height: 90px;
 }
 
 .navbar-default .navbar-nav > li > a {
-  padding-top: 30px;
+  padding-top: 33px;
 }
 
 .home-picture {
@@ -75,7 +84,7 @@ p {
   height: 100px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 767px) {
     .navbar-header {
         float: none;
     }
@@ -110,4 +119,21 @@ p {
     .collapse.in{
         display:block !important;
     }
+
+    .navbar.navbar-default {
+      border-bottom: none;
+      min-height: 30px;
+      font-family: Helvetica Neue, Arial, sans-serif;
+      font-size: 15px;
+      font-weight: 500;
+    }
+
+    .navbar-nav > li > a, .navbar-brand {
+        min-height: 30px;
+    }
+
+    .navbar-default .navbar-nav > li > a {
+      padding-top: 15px;
+    }
+
 }
