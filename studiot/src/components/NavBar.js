@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Navbar, Nav, NavItem } from 'react-bootstrap';
 import '../App.css';
-import logo from '../images/logo/StudioT-logo-RGB.eps';
+import logo from '../images/logo/studiot_logo.png';
+import home from '../images/home.jpg';
 
 class NavBar extends Component {
   constructor(props) {
@@ -13,7 +14,7 @@ class NavBar extends Component {
       <Navbar fixedTop collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand >
-            <img src="/images/logo/studiot_logo.png" onClick = {() => this.props.pageHandler("home")} / >
+            <img src={logo} onClick = {() => this.props.pageHandler("home")} / >
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
