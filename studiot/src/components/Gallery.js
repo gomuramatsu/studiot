@@ -124,8 +124,10 @@ class GalleryPage extends Component {
   render() {
     return (
       <div>
-        <h4>Gallery</h4>
+        <h3>Gallery</h3>
+        <br />
         <Gallery images={IMAGES}/>
+        <div className="under-gallery"></div>
       </div>
     );
   }

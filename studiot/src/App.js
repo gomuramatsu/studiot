@@ -15,9 +15,9 @@ class App extends Component {
   constructor(props) {
     super(props)
 
-    this.state = {currentPage: "home"}
+    this.state = {currentPage: "home", lang: "eng"}
 
-    this.pageHandler = this.pageHandler.bind(this)
+    this.pageHandler = this.pageHandler.bind(this);
   }
 
   pageHandler(newPageName) {
@@ -31,7 +31,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="index">
         <Header />
         <div className="App">
           <div className="body-wrapper">
@@ -43,8 +43,8 @@ class App extends Component {
               { this.state.currentPage === "gallery" ? <GalleryPage /> : null }
               { this.state.currentPage === "contact" ? <Contact /> : null }
             </div>
+            <Footer />
           </div>
-          <Footer />
         </div>
       </div>
     );
