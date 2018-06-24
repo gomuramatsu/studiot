@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 import '../App.css';
 
 class ThermalReconditioning extends Component {
-  
+  componentDidMount() {
+    window.scrollTo(0,0);
+	}
+
   render() {
     return (
       <div className="NonCentered">

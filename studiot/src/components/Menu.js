@@ -3,6 +3,9 @@ import { OverlayTrigger, Popover, Table} from 'react-bootstrap';
 import '../App.css';
 
 class Menu extends Component {
+  componentDidMount() {
+    window.scrollTo(0,0);
+  }
     
   render() {
 

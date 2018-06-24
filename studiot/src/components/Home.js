@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import '../App.css';
 
-class NavBar extends Component {
-  
+class Home extends Component {
+  componentDidMount() {
+    window.scrollTo(0,0);
+	}
+	
   render() {
     return (
       <div>
@@ -13,4 +16,4 @@ class NavBar extends Component {
 
 }
 
-export default NavBar;
+export default Home;
