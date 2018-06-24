@@ -4,7 +4,10 @@ import '../App.css';
 import logo from '../images/logo/StudioT-logo-RGB.eps';
 
 class NavBar extends Component {
-  
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <Navbar fixedTop collapseOnSelect>
@@ -17,16 +20,16 @@ class NavBar extends Component {
         <Navbar.Collapse>
           <Nav pullRight>
             <NavItem onClick = {() => this.props.pageHandler("menu")}>
-              Menu
+              { this.props.getLanguage() === "en" ? <div>Menu</div> : <div>メニュー</div> }
             </NavItem>
             <NavItem onClick = {() => this.props.pageHandler("thermal")}>
-              TR/Hair Straightening
+              { this.props.getLanguage() === "en" ? <div>TR/Hair Straightening</div> : <div>縮毛矯正</div> }
             </NavItem>
             <NavItem onClick = {() => this.props.pageHandler("gallery")}>
-              Gallery
+              { this.props.getLanguage() === "en" ? <div>Gallery</div> : <div>スタイルギャラリー</div> }
             </NavItem>
             <NavItem onClick = {() => this.props.pageHandler("contact")}>
-              Contact
+              { this.props.getLanguage() === "en" ? <div>Contact</div> : <div>予約</div> }
             </NavItem>
           </Nav>
         </Navbar.Collapse>

@@ -123,11 +123,11 @@ class GalleryPage extends Component {
   componentDidMount() {
     window.scrollTo(0,0);
   }
-  
+
   render() {
     return (
       <div>
-        <h3>Gallery</h3>
+        { this.props.getLanguage() === "en" ? <h3>Gallery</h3> : <h3>スタイルギャラリー</h3> }
         <br />
         <Gallery images={IMAGES}/>
         <div className="under-gallery"></div>

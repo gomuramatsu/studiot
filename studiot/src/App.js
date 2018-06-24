@@ -13,11 +13,13 @@ import './App.css';
 class App extends Component {
 
   constructor(props) {
-    super(props)
+    super(props);
 
-    this.state = {currentPage: "home", lang: "eng"}
+    this.state = {currentPage: "home", lang: "en"}
 
     this.pageHandler = this.pageHandler.bind(this);
+    this.languageHandler = this.languageHandler.bind(this);
+    this.getLanguage = this.getLanguage.bind(this);
   }
 
   pageHandler(newPageName) {
@@ -29,21 +31,30 @@ class App extends Component {
     console.log("new page: " + newPageName)
   }
 
+  languageHandler(newLanguage) {
+    console.log("new language selected: " + newLanguage);
+    this.setState({lang: newLanguage});
+  }
+
+  getLanguage() {
+    return this.state.lang;
+  }
+
   render() {
     return (
       <div className="index">
         <Header />
         <div className="App">
           <div className="body-wrapper">
-            <NavBar pageHandler = {this.pageHandler}/>
+            <NavBar pageHandler={this.pageHandler} getLanguage={this.getLanguage}/>
             <div className="ContentWrap">
-              { this.state.currentPage === "home" ? <Home /> : null }
-              { this.state.currentPage === "menu" ? <Menu /> : null }
-              { this.state.currentPage === "thermal" ? <ThermalReconditioning /> : null }
-              { this.state.currentPage === "gallery" ? <GalleryPage /> : null }
-              { this.state.currentPage === "contact" ? <Contact /> : null }
+              { this.state.currentPage === "home" ? <Home getLanguage={this.getLanguage} /> : null }
+              { this.state.currentPage === "menu" ? <Menu getLanguage={this.getLanguage} /> : null }
+              { this.state.currentPage === "thermal" ? <ThermalReconditioning getLanguage={this.getLanguage} /> : null }
+              { this.state.currentPage === "gallery" ? <GalleryPage  getLanguage={this.getLanguage} /> : null }
+              { this.state.currentPage === "contact" ? <Contact getLanguage={this.getLanguage} /> : null }
             </div>
-            <Footer />
+            <Footer languageHandler={this.languageHandler} getLanguage={this.getLanguage}/>
           </div>
         </div>
       </div>
