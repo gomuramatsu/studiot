@@ -102,6 +102,14 @@ td > p {
   clear:both;
 }
 
+.question-p {
+  margin-bottom: 0px !important;
+}
+
+.answer-p {
+  margin-bottom: 12px !important;
+}
+
 @media (max-width: 767px) {
     .navbar-header {
         float: none;
