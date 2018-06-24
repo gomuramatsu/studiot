@@ -13,7 +13,7 @@ class ThermalReconditioning extends Component {
       	<center><p><strong>It's for naturally wavy/curly hair.   Chemical solutions from Japan.</strong></p></center>
       	<br />
 
-      	<p>We specialize in hair straightening for any tipe of hair.  We use an innovative new technique from Japan to make frizzy, curly or wavy hair completely straight while preserving your hair’s health. If you like your hair totally straight all the time, then this Japanese Hair Straightening/Thermal Reconditioning procedure is for you.</p> 
+      	<p>We specialize in hair straightening for any type of hair.  We use an innovative new technique from Japan to make frizzy, curly or wavy hair completely straight while preserving your hair’s health. If you like your hair totally straight all the time, then this Japanese Hair Straightening/Thermal Reconditioning procedure is for you.</p> 
 		<p>And if your hair is very important to you, please contact us. STUDiO T looks forward to welcome you for your first consultation.</p>
       	<br />
 		
