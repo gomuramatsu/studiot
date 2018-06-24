@@ -110,6 +110,11 @@ td > p {
   margin-bottom: 12px !important;
 }
 
+iframe {
+  width: 100%;
+  height: 450px;
+}
+
 @media (max-width: 767px) {
     .navbar-header {
         float: none;

@@ -52,8 +52,6 @@ class Contact extends Component {
             <p>3160 Steeles Avenue East, Markham, L3R 4G9 (at Japan Town)</p>
           </div>
           <iframe
-              width="600"
-              height="450"
               frameborder="0" style={{border:0}}
               src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBgmwVUaNkm9bJgfZ9-fnnAe_-ZXhWpbLs
               &q=Studio+T,Markham+ON" allowfullscreen>
