@@ -13,14 +13,14 @@ class Contact extends Component {
         <div>
           <div className="spacedSection">
             <h3>Opening Hours</h3>
-            <strong>Tues - Sat: </strong><p>10AM - 7PM</p>
-            <strong>Sun: </strong><p>11AM - 6PM</p>
-            <strong>Mon: </strong><p>Closed</p>
+            <p><strong>Tues - Sat: </strong>10AM - 7PM</p>
+            <p><strong>Sun: </strong>11AM - 6PM</p>
+            <p><strong>Mon: </strong>Closed</p>
           </div>
           <div className="spacedSection">
             <h3>Contact Us</h3>
-            <strong>phone: </strong><p>(905) 475-4247</p>
-            <strong>email: </strong><p>info@studiot.ca</p>
+            <p><strong>phone: </strong>(905) 475-4247</p>
+            <p><strong>email: </strong>info@studiot.ca</p>
           </div>
           <div className="spacedSection">
             <h3>Location</h3>
@@ -38,14 +38,14 @@ class Contact extends Component {
         <div>
           <div className="spacedSection">
             <h3>営業日</h3>
-            <p>火 - 土 10AM - 7PM</p>
-            <p>日 : 11AM - 6PM</p>
-            <p>月: Closed</p>
+            <p><strong>火 - 土 : </strong>10AM - 7PM</p>
+            <p><strong>日 : </strong>11AM - 6PM</p>
+            <p><strong>月: </strong>Closed</p>
           </div>
           <div className="spacedSection">
             <h3>アクセス</h3>
-            <p>phone: (905) 475-4247</p>
-            <p>email: info@studiot.ca</p>
+            <p><strong>phone: </strong>(905) 475-4247</p>
+            <p><strong>email: </strong>info@studiot.ca</p>
           </div>
           <div className="spacedSection">
             <h3>ロケーション</h3>
