@@ -13,14 +13,14 @@ class Contact extends Component {
         <div>
           <div className="spacedSection">
             <h3>Opening Hours</h3>
-            <p>Tues - Sat: 10AM - 7PM</p>
-            <p>Sun: 11AM - 6PM</p>
-            <p>Mon: Closed</p>
+            <strong>Tues - Sat: </strong><p>10AM - 7PM</p>
+            <strong>Sun: </strong><p>11AM - 6PM</p>
+            <strong>Mon: </strong><p>Closed</p>
           </div>
           <div className="spacedSection">
             <h3>Contact Us</h3>
-            <p>phone: (905) 475-4247</p>
-            <p>email: info@studiot.ca</p>
+            <strong>phone: </strong><p>(905) 475-4247</p>
+            <strong>email: </strong><p>info@studiot.ca</p>
           </div>
           <div className="spacedSection">
             <h3>Location</h3>

@@ -45,7 +45,7 @@ class ThermalReconditioning extends Component {
 				<p className="answer-p">A: Yes, you can color your hair. If you want to lighten your natural color a little, you can do that first. Or if you want to darken it with a true semi-permanent, we would usually advise it for after. It really depends on the situation. We do not recommend Hi-lights(with bleach) after this procedure, as it could be very damaging. Also you should not attempt to perm it with regular North American solutions, as it will be very damaging. Only special solutions from Japan can be used after this treatment.</p>
 
 				<p className="question-p"><strong>Q: Will all my hair fall out or break off at the roots?</strong></p>
-				<p className="answer-p">A: Not if you have an experienced and properly trained stylist perform it for you. Taro has 12 years of Hair Straightening/TR experience. Also you can have a free consultation so that you and we could make sure that everything is fine with your hair.</p>
+				<p className="answer-p">A: Not if you have an experienced and properly trained stylist perform it for you. Taro has 20+ years of Hair Straightening/TR experience. Also you can have a free consultation so that you and we could make sure that everything is fine with your hair.</p>
 
 				<p className="question-p"><strong>Q: After the procedure, what do I have to do?</strong></p> 
 				<p className="answer-p">A: The hair should not be washed for about 48 hours. And it should be kept as straight as possible for about 5 -7 days. Good shampoo, treatments/conditioners and leave in treatments/conditioners should be used. We also carry the best hair care products from Japan for after this treatment. Please feel free to ask/contact us if you are interested.</p>
@@ -90,7 +90,7 @@ class ThermalReconditioning extends Component {
 				<p className="answer-p">A: カラーは問題ありません。もし明るい色をご希望でしたら、縮毛矯正前にセミ・パーマネントのカラーを、よりダークな色をご希望でしたら、縮毛矯正後のカラーをお勧めします。ケースバイケースですが、縮毛矯正後のブリーチを使ったハイライトは、ダメージのリスクが高いのでお勧めしません。また、北米のパーマ液はダメージのリスクが高いのでお勧めしませんが、十分なトリートメント後に、スタジオＴの日本から取り寄せた液剤を使用すればパーマも可能です。</p>
 
 				<p className="question-p"><strong>Q: 髪が抜けたり、根元から切れたりすることはありませんか？</strong></p>
-				<p className="answer-p">A: 経験豊富で確かな技術を持つスタイリストが行えば、そのようなことは起こりません。スタジオＴの太郎は、縮毛矯正の経験12年。技術も熟練しています。無料のコンサルティングで、縮毛矯正について不安に思っていること等、なんでもお気軽にお尋ねください。</p>
+				<p className="answer-p">A: 経験豊富で確かな技術を持つスタイリストが行えば、そのようなことは起こりません。スタジオＴの太郎は、縮毛矯正の経験20年プラス。技術も熟練しています。無料のコンサルティングで、縮毛矯正について不安に思っていること等、なんでもお気軽にお尋ねください。</p>
 
 				<p className="question-p"><strong>Q: 縮毛矯正後のケアは？</strong></p> 
 				<p className="answer-p">A: 48時間は髪を洗わないでください。５～７日間は、できる限り髪をストレートの状態にしておいてください。質の良いシャンプー、トリートメント/コンディショナー、洗い流さないトリートメント/コンディショナーを使うことをお勧めします。スタジオＴでは、日本から取り寄せた、縮毛矯正後に最適の優れた商品を取り扱っています。ご興味のある方はどうぞお気軽にお問い合わせください。</p>
