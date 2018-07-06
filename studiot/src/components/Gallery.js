@@ -22,7 +22,7 @@ import Picture_144 from '../images/Picture_144.jpg';
 import Picture_144_thumb from '../images/Picture_144_thumb.png';
 import sora572A4436 from '../images/sora572A4436.jpg';
 import sora572A4436_thumb from '../images/sora572A4436_thumb.png';
-import Sumi_f3 from '../images/Sumi_f3.JPG';
+import rsz_1sumi_f3 from '../images/rsz_1sumi_f3.jpg';
 import Sumi_f3_thumb from '../images/Sumi_f3_thumb.png';
 import top_MG_0079 from '../images/top_MG_0079.jpg';
 import top_MG_0079_thumb from '../images/top_MG_0079_thumb.png';
@@ -75,8 +75,7 @@ const IMAGES =
     },
     {
             src: model_17,
-            thumbnail: model_17_thumb
-            ,
+            thumbnail: model_17_thumb,
             thumbnailWidth: 400,
             thumbnailHeight: 400
     },
@@ -105,7 +104,7 @@ const IMAGES =
             thumbnailHeight: 400
     },
     {
-            src: Sumi_f3,
+            src: rsz_1sumi_f3,
             thumbnail: Sumi_f3_thumb,
             thumbnailWidth: 400,
             thumbnailHeight: 400
