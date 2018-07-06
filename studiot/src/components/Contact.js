@@ -51,14 +51,27 @@ class Contact extends Component {
         <div>
           <div className="spacedSection">
             <h3>営業日</h3>
-            <p><strong>火 - 土 : </strong>10AM - 7PM</p>
-            <p><strong>日 : </strong>11AM - 6PM</p>
-            <p><strong>月: </strong>Closed</p>
+            <div className="contact-left" align="right">
+              <p><strong>火 - 土 : </strong></p>
+              <p><strong>日 : </strong></p>
+              <p><strong>月: </strong></p>
+            </div>
+            <div className="contact-right" align="left">
+              <p>10AM - 7PM</p>
+              <p>11AM - 6PM</p>
+              <p>Closed</p>
+            </div>
           </div>
           <div className="spacedSection">
             <h3>アクセス</h3>
-            <p><strong>phone: </strong>(905) 475-4247</p>
-            <p><strong>email: </strong>info@studiot.ca</p>
+            <div className="contact-left" align="right">
+              <p><strong>phone: </strong></p>
+              <p><strong>email: </strong></p>
+            </div>
+            <div className="contact-right" align="left">
+              <p>(905) 475-4247</p>
+              <p>info@studiot.ca</p>
+            </div>
           </div>
           <div className="spacedSection">
             <h3>ロケーション</h3>
