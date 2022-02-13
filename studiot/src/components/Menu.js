@@ -42,15 +42,15 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>Basic Tint</p></td>
-                <td><p>$70~$100</p></td>
+                <td><p>$75~$100</p></td>
               </tr>
               <tr>
                 <td><p>Hi-lights</p></td>
-                <td><p>$80~$200</p></td>
+                <td><p>$100~$200</p></td>
               </tr>
               <tr>
                 <td><p>Color Correction</p></td>
-                <td><p>$160~</p></td>
+                <td><p>$180~</p></td>
               </tr>
             </tbody>
           </Table>
@@ -61,15 +61,15 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>Perm</p></td>
-                <td><p>$100 ~ $180</p></td>
+                <td><p>$120~$200</p></td>
               </tr>
               <tr>
                 <td><p>Airwave Perm</p></td>
-                <td><p>$170~$280</p></td>
+                <td><p>$200~$300</p></td>
               </tr>
               <tr>
                 <td><p>Relaxer</p></td>
-                <td><p>$250~$350</p></td>
+                <td><p>$280~$380</p></td>
               </tr>
             </tbody>
           </Table>
@@ -79,11 +79,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>Hair Treatment</p></td>
-                <td><p>$70~$90</p></td>
-              </tr>
-              <tr>
-                <td><p>Scalp Treatment</p></td>
-                <td><p>$40~$60</p></td>
+                <td><p>$75~$100</p></td>
               </tr>
             </tbody>
           </Table>
@@ -100,7 +96,7 @@ class Menu extends Component {
               </tr>
               <tr>
                 <td className="col-md-6"><p>Japanese Hair Straightening TR(Thermal Reconditioning), Rebonding</p></td>
-                <td><p>$450~$580</p></td>
+                <td><p>$480~$600</p></td>
               </tr>
             </tbody>
           </Table>
@@ -138,15 +134,15 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>ベーシック</p></td>
-                <td><p>$70~$100</p></td>
+                <td><p>$75~$100</p></td>
               </tr>
               <tr>
                 <td><p>ハイライト</p></td>
-                <td><p>$80~$200</p></td>
+                <td><p>$100~$200</p></td>
               </tr>
               <tr>
                 <td><p>カラーコレクション（ヘアカラーの染めかえ)</p></td>
-                <td><p>$160~</p></td>
+                <td><p>$180~</p></td>
               </tr>
             </tbody>
           </Table>
@@ -157,15 +153,15 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>パーマ</p></td>
-                <td><p>$100 ~ $180</p></td>
+                <td><p>$120~$200</p></td>
               </tr>
               <tr>
                 <td><p>エアウエーブパーマ</p></td>
-                <td><p>$170~$280</p></td>
+                <td><p>$200~$300</p></td>
               </tr>
               <tr>
                 <td><p>ストレートパーマ</p></td>
-                <td><p>$250~$350</p></td>
+                <td><p>$280~$380</p></td>
               </tr>
             </tbody>
           </Table>
@@ -175,11 +171,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>ヘアー・トリートメント</p></td>
-                <td><p>$70~$90</p></td>
-              </tr>
-              <tr>
-                <td><p>頭皮トリートメント</p></td>
-                <td><p>$40~$60</p></td>
+                <td><p>$75~$100</p></td>
               </tr>
             </tbody>
           </Table>
@@ -196,7 +188,7 @@ class Menu extends Component {
               </tr>
               <tr>
                 <td className="col-md-6"><p>縮毛矯正</p></td>
-                <td><p>$450~$580</p></td>
+                <td><p>$480~$600</p></td>
               </tr>
             </tbody>
           </Table>
