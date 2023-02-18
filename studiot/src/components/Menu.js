@@ -24,15 +24,15 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>Women's Haircut</p></td>
-                <td><p>$60~$70</p></td>
+                <td><p>$65~$75</p></td>
               </tr>
               <tr>
                 <td><p>Men's Haircut</p></td>
-                <td><p>$50~$60</p></td>
+                <td><p>$55~$65</p></td>
               </tr>
               <tr>
                 <td><p>Children's Haircut (12 & under)</p></td>
-                <td><p>$30</p></td>
+                <td><p>$35~$45</p></td>
               </tr>
             </tbody>
           </Table>
@@ -42,7 +42,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>Basic Tint</p></td>
-                <td><p>$75~$100</p></td>
+                <td><p>$80~$120</p></td>
               </tr>
               <tr>
                 <td><p>Hi-lights</p></td>
@@ -50,7 +50,7 @@ class Menu extends Component {
               </tr>
               <tr>
                 <td><p>Color Correction</p></td>
-                <td><p>$180~</p></td>
+                <td><p>$200~</p></td>
               </tr>
             </tbody>
           </Table>
@@ -61,15 +61,11 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>Perm</p></td>
-                <td><p>$120~$200</p></td>
+                <td><p>$140~$200</p></td>
               </tr>
               <tr>
                 <td><p>Airwave Perm</p></td>
-                <td><p>$200~$300</p></td>
-              </tr>
-              <tr>
-                <td><p>Relaxer</p></td>
-                <td><p>$280~$380</p></td>
+                <td><p>$200~$330</p></td>
               </tr>
             </tbody>
           </Table>
@@ -79,7 +75,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>Hair Treatment</p></td>
-                <td><p>$75~$100</p></td>
+                <td><p>$80~$100</p></td>
               </tr>
             </tbody>
           </Table>
@@ -88,7 +84,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>Shampoo</p></td>
-                <td><p>$20~$30</p></td>
+                <td><p>$20~$40</p></td>
               </tr>
               <tr>
                 <td><p>Blow dry/Flat iron/Curling iron</p></td>
@@ -116,15 +112,15 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>レディース・カット</p></td>
-                <td><p>$60~$70</p></td>
+                <td><p>$65~$75</p></td>
               </tr>
               <tr>
                 <td><p>メンズ・カット</p></td>
-                <td><p>$50~$60</p></td>
+                <td><p>$55~$65</p></td>
               </tr>
               <tr>
                 <td><p>お子様カット (12歳以下)</p></td>
-                <td><p>$30</p></td>
+                <td><p>$35~$45</p></td>
               </tr>
             </tbody>
           </Table>
@@ -134,7 +130,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>ベーシック</p></td>
-                <td><p>$75~$100</p></td>
+                <td><p>$80~$120</p></td>
               </tr>
               <tr>
                 <td><p>ハイライト</p></td>
@@ -142,7 +138,7 @@ class Menu extends Component {
               </tr>
               <tr>
                 <td><p>カラーコレクション（ヘアカラーの染めかえ)</p></td>
-                <td><p>$180~</p></td>
+                <td><p>$200~</p></td>
               </tr>
             </tbody>
           </Table>
@@ -153,15 +149,11 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>パーマ</p></td>
-                <td><p>$120~$200</p></td>
+                <td><p>$140~$200</p></td>
               </tr>
               <tr>
                 <td><p>エアウエーブパーマ</p></td>
-                <td><p>$200~$300</p></td>
-              </tr>
-              <tr>
-                <td><p>ストレートパーマ</p></td>
-                <td><p>$280~$380</p></td>
+                <td><p>$200~$330</p></td>
               </tr>
             </tbody>
           </Table>
@@ -171,7 +163,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>ヘアー・トリートメント</p></td>
-                <td><p>$75~$100</p></td>
+                <td><p>$80~$100</p></td>
               </tr>
             </tbody>
           </Table>
@@ -180,7 +172,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>シャンプー</p></td>
-                <td><p>$20~$30</p></td>
+                <td><p>$20~$40</p></td>
               </tr>
               <tr>
                 <td><p>ブロードライ / フラットアイロン / カーリングアイロン</p></td>
