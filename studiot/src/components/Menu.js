@@ -42,7 +42,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>Basic Tint</p></td>
-                <td><p>$80~$120</p></td>
+                <td><p>$90~$130</p></td>
               </tr>
               <tr>
                 <td><p>Hi-lights</p></td>
@@ -65,7 +65,7 @@ class Menu extends Component {
               </tr>
               <tr>
                 <td><p>Airwave Perm</p></td>
-                <td><p>$200~$330</p></td>
+                <td><p>$250~$350</p></td>
               </tr>
             </tbody>
           </Table>
@@ -92,7 +92,7 @@ class Menu extends Component {
               </tr>
               <tr>
                 <td className="col-md-6"><p>Japanese Hair Straightening TR(Thermal Reconditioning), Rebonding</p></td>
-                <td><p>$480~$600</p></td>
+                <td><p>$500~$600</p></td>
               </tr>
             </tbody>
           </Table>
@@ -130,7 +130,7 @@ class Menu extends Component {
             <tbody>
               <tr>
                 <td className="col-md-6"><p>ベーシック</p></td>
-                <td><p>$80~$120</p></td>
+                <td><p>$90~$130</p></td>
               </tr>
               <tr>
                 <td><p>ハイライト</p></td>
@@ -153,7 +153,7 @@ class Menu extends Component {
               </tr>
               <tr>
                 <td><p>エアウエーブパーマ</p></td>
-                <td><p>$200~$330</p></td>
+                <td><p>$250~$350</p></td>
               </tr>
             </tbody>
           </Table>
@@ -180,7 +180,7 @@ class Menu extends Component {
               </tr>
               <tr>
                 <td className="col-md-6"><p>縮毛矯正</p></td>
-                <td><p>$480~$600</p></td>
+                <td><p>$500~$600</p></td>
               </tr>
             </tbody>
           </Table>
